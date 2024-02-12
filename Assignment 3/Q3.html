@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Information Form</title>
+</head>
+<body>
+    <table>
+        <h1>Basic Information Page</h1>
+         <tbody>
+            <form action="" method="">
+             <tr>
+                 <td><label for="username">Username : </label>
+                 <input type="text" name="username" placeholder="John"></td>
+             </tr>
+            <tr>
+                <td>
+                    <label for="address">Address : </label>
+                    <textarea name="address" id="" cols="30" rows="5" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Choose Book Subjects : </label>
+                    <input type="radio" name="books">
+                    <label for="male">Study</label>
+                    <input type="radio" name="books">
+                    <label for="female">Mythology</label>
+                    <input type="radio" name="books">
+                    <label for="female">Comic</label>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="author">Favorite Author :</label>
+        <select name="auth">
+            <optgroup label="Study">
+                <option value="Maths">R.C.Shah</option>
+                <option value="Physics" selected>H.C.Verma</option>
+            </optgroup>
+            <optgroup label="Mythology">
+                <option value="Ramayana">Valmiki rishi</option>
+                <option value="Mahabharata" disabled>Ved vyas rishi</option>
+               
+            </optgroup>
+        </select>
+                </td>
+            </tr>
+            </form>
+         </tbody>
+     </table>
+    
+</body>
+</html>

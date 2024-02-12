@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    
+    <form method="post">
+        <!--Name -->
+        <label for="firstname">First Name : </label>
+        <input type="text" name="fname" placeholder="Mudit" required>
+        <br><br>
+          <label for="lastname">Last Name : </label>
+          <input type="text" name="lname" placeholder="Dave" required>
+          <br><br>
+         <!-- Email -->
+         <label for="email">Email : </label>
+         <input type="email" name="emailaddress" placeholder="davemudit@gmail.com" required>
+         <br><br>
+        <!-- Password -->
+        <label for="password">Password : </label>
+        <input type="password" name="password" required>
+        <br><br>
+        <!-- Gender -->
+       <label>Select Your Gender : </label>
+        <label for="male">Male</label>
+        <input type="radio" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" name="gender">
+        <br><br>
+        <!-- Hobby -->
+        <label>Select Your Hobby : </label>
+        <input type="checkbox" name="hobby1">
+        <label for="cricket">Cricket</label>
+        <input type="checkbox" name="hobby2">
+        <label for="travelling">Travelling</label>
+        <input type="checkbox" name="hobby3">
+        <label for="dancing">Dancing</label>
+        <input type="checkbox" name="hobby4">
+        <label for="singing">Singing</label>
+        <br><br>
+        <!-- Address -->
+        <label for="address">Address : </label>
+        <textarea name="address" id="" cols="30" rows="5" required></textarea>
+        <br><br>
+        <!-- City -->
+        <label for="city">Select Your City : </label>
+        <select name="city" required>
+            <option value="ahmedabad">Ahmedabad</option>
+            <option value="rajkot">Rajkot</option>
+            <option value="gandhinagar">Gandhinagar</option>
+            <option value="surat">Surat</option>
+        </select>
+        <br><br>
+        <label for="bithdate">DOB : </label>
+        <input type="date">
+        <br><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
