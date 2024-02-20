@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    color: red;
+    background-color: yellow;
+    font-size: large;
+    font-weight: 700;
+    margin: 20px 5px;
+    padding:50px 0;
+}
+.box1{
+    border: 5px solid black ;
+}
+
