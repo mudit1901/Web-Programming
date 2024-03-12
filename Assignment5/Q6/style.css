@@ -1,0 +1,12 @@
+:root{
+    --primarycolor:#000102;
+    --secondarycolor:#faf0e6;
+}
+
+body{
+    background-color: var(--primarycolor);
+}
+h1{
+    background-color: var(--secondarycolor);
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+.box{
+    width: 200px;
+    height: 200px;
+    font-size: larger;
+    margin: 10px;
+    font-weight: bolder;
+    color: white;
+    
+}
+.linear{
+    background-image: linear-gradient(red,yellow);
+
+}
+.radial{
+    background-image: radial-gradient(circle at center, blue 10%, red 10%, green 100%);
+}

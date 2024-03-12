@@ -1,0 +1,17 @@
+.container{
+    /* background-color: green; */
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    animation: text;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;  /*normal alternate-reverse reverse*/
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: both; */
+}
+@keyframes text {
+    from{background-color: rgb(128, 94, 79);}
+    to{background-color: rgb(238, 255, 0);}
+}
